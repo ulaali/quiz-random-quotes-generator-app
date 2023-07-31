@@ -1,38 +1,20 @@
-.quiz{
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-.quiz h1{
-    background-color: aliceblue;
-    color: brown;
-    padding: 10px 10px;
-    height: 100px;
-    width: 80%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.btn{
-    display: flex;
-    flex-direction: column;
-    background-color: beige;
-    width: 800px;
-    height: 150px;
+.generator{
+    background-color: rgb(57, 57, 148);
     border: 1px solid black;
-    margin-top: 20px;
-    
-
-}
-.btn p{
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 130px;
+    margin-top: 200px;
+    color: white;
+    height: 250px;
     text-align: center;
-    font-size: 1.8rem;
-    margin: 0 auto;
-    margin-top: 50px;
 }
-
-
+.generator button{
+    background-color: beige;
+    border-radius: 10px;
+    border: none;
+    color: rgb(147, 80, 80);
+    padding: 20px 30px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
